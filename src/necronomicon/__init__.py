@@ -15,13 +15,11 @@ __version__ = "1.0.0"
 __author__ = "rhizor"
 
 from .api import SIEMAPI
-from .dashboard import Dashboard
 from .correlator import EventCorrelator
 from .models import Event, Alert, Incident
 
 __all__ = [
     "SIEMAPI",
-    "Dashboard", 
     "EventCorrelator",
     "Event",
     "Alert",
